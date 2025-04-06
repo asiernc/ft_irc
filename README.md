@@ -13,8 +13,6 @@
 - [🚀 Usage](#-usage)
 - [🖼 Screenshots](#-screenshots)
 - [🛠 Installation](#-installation)
-- [📚 Documentation](#-documentation)
-- [🤝 Credits](#-credits)
 
 ---
 
@@ -52,7 +50,7 @@
 ### 🛠 Technical Requirements
 - No `fork()` usage allowed
 - Mandatory non-blocking I/O
-- Single `poll()` call (or equivalent: `select()`, `epoll()`, `kqueue()`)
+- Single `poll()` call
 - C++98 standard functions only
 - Allowed syscalls only
 
@@ -66,3 +64,4 @@
 <port>: Server listening port
 <password>: Client connection password
 ```
+
